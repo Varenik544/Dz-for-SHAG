@@ -1,0 +1,19 @@
+class Pet:
+    def init(self, animal='Cat', name='Pet', sound='Mrr', height=40, weight=7, fur_color='Black', eye_color='Yellow', amount_of_ears=2, amount_of_tails=1, amount_of_paws=4):
+        self.animal = animal
+        self.name = name
+        self.sound = sound
+        self.height = height
+        self.weight = weight
+        self.fur_color = fur_color
+        self.eye_color = eye_color
+  self.amount_of_ears = amount_of_ears
+  self.amount_of_tails = amount_of_tails
+  self.amount_of_paws = amount_of_paws
+
+cat = Pet()
+cat.name = 'Nikol'
+cat.height = 30
+cat.weight = 7
+cat.fur_color = 'Black'
+    cat.eye_color = 'Yellow'
